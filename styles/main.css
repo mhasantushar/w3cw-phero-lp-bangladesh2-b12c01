@@ -140,13 +140,13 @@ body {
 }
 
 .section-copy {
-    color:rgba(14, 14, 14, 0.7);
+    color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     line-height: 24px;
 }
 
 .section-subhead {
-    color:rgba(14, 14, 14, 0.8);
+    color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 12px;
@@ -160,6 +160,10 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.text-left {
+    text-align: left;
 }
 
 /* Navigation area */
@@ -200,14 +204,14 @@ nav a button {
 .hero-subhead {
     font-size: 24px;
     font-weight: 500;
-    color:rgba(14, 14, 14, 0.5);
+    color: rgba(14, 14, 14, 0.5);
     margin-bottom: 16px;
 }
 
 .hero-header {
     font-size: 56px;
     font-weight: 700;
-    color:#0E0E0E;
+    color: #0E0E0E;
     margin-bottom: 24px;
 }
 
@@ -218,12 +222,12 @@ nav a button {
 /* Pillars of Bangladesh 2.0 */
 .pillar-card-coll {
     display: flex;
-    gap:24px;
+    gap: 24px;
     justify-content: space-between;
 }
 
 .pillar-card {
-    width:300px;
+    width: 300px;
     background-color: white;
     border: 1px inset rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -233,24 +237,33 @@ nav a button {
 /* The Vision of Future */
 .vision-card-coll {
     display: flex;
-    gap:24px;
+    gap: 24px;
     justify-content: space-between;
-    margin-top:32px;
+    margin-top: 32px;
+}
+
+.vision-card {
+    width: 410px;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.vision-card a {
+    margin-top: auto;
 }
 
 .vision-card-blue {
-    width: 410px;
     background-color: rgba(84, 144, 245, 0.2);
     border: 1px inset #5490F5;
-    border-radius: 16px;
-    padding: 32px;
 }
 
 .vision-btn-blue {
     background-color: #5490F5;
     border-color: #5490F5;
     border-radius: 8px;
-    color:white;
+    color: white;
     font-size: 16px;
     font-weight: 600;
     padding: 11px 20px;
@@ -258,18 +271,15 @@ nav a button {
 }
 
 .vision-card-green {
-    width: 410px;
     background-color: rgba(198, 228, 214, 1);
     border: 1px inset #09A15C;
-    border-radius: 16px;
-    padding: 32px;
 }
 
 .vision-btn-green {
     background-color: #09A15C;
     border-color: #09A15C;
     border-radius: 8px;
-    color:white;
+    color: white;
     font-size: 16px;
     font-weight: 600;
     padding: 11px 20px;
@@ -277,20 +287,104 @@ nav a button {
 }
 
 .vision-card-yellow {
-    width: 410px;
     background-color: rgba(247, 235, 207, 1);
     border: 1px inset #FFC239;
-    border-radius: 16px;
-    padding: 32px;
 }
 
 .vision-btn-yellow {
     background-color: #FFC239;
     border-color: #FFC239;
     border-radius: 8px;
-    color:white;
+    color: white;
     font-size: 16px;
     font-weight: 600;
     padding: 11px 20px;
     margin-top: 24px;
+}
+
+.dr-md-younus {
+    background-color: white;
+    margin-top: 32px;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-image: url("../images/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+}
+
+.dr-md-younus p {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dr-md-younus h5 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.dr-md-younus h6 {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* Your Opinion Matters */
+.your-opinion table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+}
+
+.your-opinion th, td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+    color: #0E0E0E;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.your-opinion th {
+    background-color: #C6E4D6;
+    font-size: 20px;
+}
+
+.your-opinion th:nth-child(1), td:nth-child(1) {
+    text-align: left;
+}
+
+.your-opinion th:nth-child(2), td:nth-child(2) {
+    text-align: center;
+}
+
+.your-opinion th:nth-child(1) {
+    border-right: 0px;
+}
+
+.your-opinion th:nth-child(2) {
+    border-left: 0px;
+}
+
+.ur-opinion-qry {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+
+.ur-opinion-resp {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    padding: 10px, 24px;
+    background-color: #C6E4D6;
+    border: 1px inset #0E0E0E;
+    border-radius: 4px;
+    height: 44px;
+    width: 152px;
 }
