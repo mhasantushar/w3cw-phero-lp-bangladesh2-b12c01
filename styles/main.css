@@ -134,6 +134,10 @@ nav h3 {
     font-weight: 700;
 }
 
+nav a {
+    text-decoration: none;
+}
+
 nav a button {
     border-color: #006A50;
     border-radius: 8px;
@@ -159,6 +163,10 @@ nav a button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.hero-copies a {
+    text-decoration: none;
 }
 
 .hero-subhead {
@@ -211,6 +219,7 @@ nav a button {
 
 .vision-card a {
     margin-top: auto;
+    text-decoration: none;
 }
 
 .vision-card-blue {
@@ -366,6 +375,9 @@ td:nth-child(2) {
     flex-direction: column;
     align-items: flex-start;
 }
+.news-dtls a {
+    text-decoration: none;
+}
 
 .news-img img {
     width: 408px;
@@ -414,6 +426,10 @@ td:nth-child(2) {
 .donate-green {
     background-color: #C6E4D6;
     border-color: rgba(14, 14, 14, 0.15);
+}
+
+.donate-other a {
+    text-decoration: none;
 }
 
 .donate-other input, button {
